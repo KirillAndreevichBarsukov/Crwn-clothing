@@ -13,8 +13,11 @@ const NavigationBar = () => {
           <CrwnLogo />
         </Link>
         <div className='nav-links-container'>
-          <Link className='nav-bar-link' to='shop'>
+          <Link className='nav-bar-link' to='/shop'>
             Shop
+          </Link>
+          <Link className='nav-bar-link' to='/sign-in'>
+            Sign In
           </Link>
         </div>
       </div>
